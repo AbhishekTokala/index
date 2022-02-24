@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+    <title>animation</title>
+      <head>
+        <style>
+           div{
+               width: 100px;
+               height: 100px;
+               position:relative;
+               background-color: lightskyblue;
+               animation-name: one;
+               animation-duration: 6s;
+               animation-iteration-count: 3;
+               animation-direction: alternate;
+           }
+           @keyframes one{
+               0%
+               {
+                   background-color: lightskyblue;
+                   left: 0px;
+                   top:0px;
+               }
+               50%{
+                   background-color: greenyellow;
+                   left:100px;
+                   top: 200px;
+               }
+               100%{
+                   background-color: red;
+                   left: 200px;
+                   top: 0px;
+               }
+           }
+        </style>
+      </head>
+      <body>
+          <h2>animation</h2>
+          <div><p style="text-align: center; ">abcd</p></div>
+          
+
+      </body>
+</html>
